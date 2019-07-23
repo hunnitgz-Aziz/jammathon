@@ -1,0 +1,48 @@
+.button-cta {
+  background: #d8d8d8;
+  color: #000;
+  text-decoration: #000;
+  font-size: 24px;
+  padding: 1.5rem 0;
+  max-width: 300px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  -webkit-box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 1);
+  box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 1);
+  transition: all ease-in-out 0.2s;
+}
+
+.button-cta:hover {
+  box-shadow: none;
+  transform: translateY(15px) translateX(15px);
+}
+
+.body-wrapper {
+  position: relative;
+}
+
+.site-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.body-wrapper:before {
+  background: url("../images/03.png") no-repeat center right/contain;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.22;
+  transition: all ease-in-out 0.2s;
+}
+
+@media only screen and (max-width: 767px) {
+  .body-wrapper:before {
+    opacity: 0;
+  }
+}
