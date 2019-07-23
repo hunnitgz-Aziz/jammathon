@@ -9,7 +9,7 @@ import About from "../components/About"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Jammathon" />
     <About></About>
     <ButtonContainer>
       <a
