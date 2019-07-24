@@ -5,9 +5,9 @@ class About extends React.Component {
   render() {
     return (
       <HeroContainer>
-        <LeadText>Open collaboratory art space</LeadText>
+        <LeadText>A collaboratory art space</LeadText>
         <SubText>
-          There’s enough people fucking with the vision. but there’s not enough
+          There’s enough people fucking with the vision. but not enough
           people doing anything about it.
         </SubText>
         <ActionText>
