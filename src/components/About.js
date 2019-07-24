@@ -7,7 +7,7 @@ class About extends React.Component {
       <HeroContainer>
         <LeadText>A collaboratory art space</LeadText>
         <SubText>
-          There’s enough people fucking with the vision. but not enough
+          There’s enough people fucking with the vision, but not enough
           people doing anything about it.
         </SubText>
         <ActionText>
