@@ -3,6 +3,7 @@ module.exports = {
     title: `Jammathon`,
     description: `Make something, meet people in 12 hours. What do you have to lose?`,
     author: `@_azizramos`,
+    image: `src/images/social-media-bg.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
