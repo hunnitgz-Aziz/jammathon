@@ -71,7 +71,7 @@ function SEO({ description, lang, meta, title, image, siteUrl }) {
         },
         {
           property: `og:image`,
-          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`,
+          content: site.siteMetadata.image,
         },
       ].concat(meta)}
     />

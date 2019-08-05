@@ -3,7 +3,7 @@ module.exports = {
     title: `Jammathon`,
     description: `Make something, meet people in 12 hours. What do you have to lose?`,
     author: `@_azizramos`,
-    image: `../images/social-media-bg.jpg`,
+    image: `https://jammathon.s3.amazonaws.com/social-media-image/jammathon-social-image.jpg`,
     siteUrl: `https://www.jammathon.com`,
   },
   plugins: [
