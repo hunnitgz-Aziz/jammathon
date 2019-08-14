@@ -64,6 +64,10 @@ const Faqs = [
     answer: "Barely, bring whatcha got.",
   },
   {
+    question: "Where is it?",
+    answer: "The Cribbington | Jersey City",
+  },
+  {
     question: "When is it?",
     answer: "Saturday, August 17th @ 12pm",
   },
